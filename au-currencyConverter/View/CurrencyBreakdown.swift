@@ -20,22 +20,31 @@ class CurrencyBreakdown: UIViewController {
     @IBOutlet weak var c3AmountLabel: UILabel!
     @IBOutlet weak var c4AmountLabel: UILabel!
     
+    var USDLabelText = ""
+    var c1LabelText = ""
+    var c2LabelText = ""
+    var c3LabelText = ""
+    var c4LabelText = ""
+    var c1Amount = ""
+    var c2Amount = ""
+    var c3Amount = ""
+    var c4Amount = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        USDLabel.text = USDLabelText
+        c1Label.text = c1LabelText
+        c2Label.text = c2LabelText
+        c3Label.text = c3LabelText
+        c4Label.text = c4LabelText
+        c1AmountLabel.text = c1Amount
+        c2AmountLabel.text = c2Amount
+        c3AmountLabel.text = c3Amount
+        c4AmountLabel.text = c4Amount
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func backPressed(_ sender: UIButton) {
+        dismiss(animated: true)
     }
-    */
-
 }

@@ -7,6 +7,10 @@
 
 import Foundation
 
-enum Countries : String {
-    case UK = "Pound Sterling", Russia = "Russian Ruble", Mexico = "Mexican Peso", France = "Euro"
+enum Countries : CaseIterable {
+    case UK
+    case Russia
+    case Mexico
+    case France
 }
+

@@ -10,6 +10,7 @@
 		567CE859299FE25E00E2720E /* CurrencyBreakdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567CE858299FE25E00E2720E /* CurrencyBreakdown.swift */; };
 		567CE85C299FE62500E2720E /* converterLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567CE85B299FE62500E2720E /* converterLogic.swift */; };
 		567CE85F299FE83F00E2720E /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567CE85E299FE83F00E2720E /* Countries.swift */; };
+		567CE86229A060D800E2720E /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567CE86129A060D800E2720E /* Country.swift */; };
 		56A0F4E4299FC0CF00B65B88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A0F4E3299FC0CF00B65B88 /* AppDelegate.swift */; };
 		56A0F4E6299FC0CF00B65B88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A0F4E5299FC0CF00B65B88 /* SceneDelegate.swift */; };
 		56A0F4E8299FC0CF00B65B88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A0F4E7299FC0CF00B65B88 /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 		567CE858299FE25E00E2720E /* CurrencyBreakdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyBreakdown.swift; sourceTree = "<group>"; };
 		567CE85B299FE62500E2720E /* converterLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = converterLogic.swift; sourceTree = "<group>"; };
 		567CE85E299FE83F00E2720E /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		567CE86129A060D800E2720E /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		56A0F4E0299FC0CF00B65B88 /* au-currencyConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "au-currencyConverter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56A0F4E3299FC0CF00B65B88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56A0F4E5299FC0CF00B65B88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				567CE85E299FE83F00E2720E /* Countries.swift */,
+				567CE86129A060D800E2720E /* Country.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				567CE86229A060D800E2720E /* Country.swift in Sources */,
 				56A0F4E8299FC0CF00B65B88 /* ViewController.swift in Sources */,
 				567CE85F299FE83F00E2720E /* Countries.swift in Sources */,
 				56A0F4E4299FC0CF00B65B88 /* AppDelegate.swift in Sources */,
